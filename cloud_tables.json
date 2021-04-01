@@ -1,0 +1,62 @@
+[{
+  "mode": "REQUIRED",
+  "name": "Page",
+  "type": "STRING"
+},
+{
+  "mode": "NULLABLE",
+  "name": "Quarto",
+  "type": "INTEGER"
+},
+{
+  "mode": "NULLABLE",
+  "name": "Banheiro",
+  "type": "INTEGER"
+},
+{
+  "mode": "NULLABLE",
+  "name": "Cozinha",
+  "type": "INTEGER"
+},
+{
+  "mode": "NULLABLE",
+  "name": "Quintal",
+  "type": "INTEGER"
+},
+{
+  "mode": "NULLABLE",
+  "name": "Salas",
+  "type": "INTEGER"
+},
+{
+  "mode": "NULLABLE",
+  "name": "VagadeGaragem",
+  "type": "INTEGER"
+},
+{
+  "mode": "NULLABLE",
+  "name": "AreadeServico",
+  "type": "INTEGER"
+},
+{
+  "mode": "NULLABLE",
+  "name": "Area",
+  "type": "INTEGER"
+},
+{
+  "mode": "NULLABLE",
+  "name": "Aceitapet",
+  "type": "INTEGER"
+},
+{
+  "mode": "NULLABLE",
+  "name": "MetroProximo",
+  "type": "INTEGER"
+},
+{
+  "mode": "NULLABLE",
+  "name": "Price",
+  "type": "FLOAT"
+}
+]
+
