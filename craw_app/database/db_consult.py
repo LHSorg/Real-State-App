@@ -16,7 +16,7 @@ def call_query(item):
                     SELECT *
                     FROM {table_id}
                     WHERE preco_atual > 14
-                    LIMIT 1000 """)           
+                    LIMIT 1000 """)               
     }
     return (querys.get(item, "Invalid Item"))
 
