@@ -35,11 +35,6 @@
 },
 {
   "mode": "NULLABLE",
-  "name": "AreadeServico",
-  "type": "INTEGER"
-},
-{
-  "mode": "NULLABLE",
   "name": "Area",
   "type": "INTEGER"
 },
@@ -52,6 +47,36 @@
   "mode": "NULLABLE",
   "name": "MetroProximo",
   "type": "INTEGER"
+},
+{
+  "mode": "NULLABLE",
+  "name": "Suites",
+  "type": "INTEGER"
+},
+{
+  "mode": "NULLABLE",
+  "name": "Dist0",
+  "type": "FLOAT"
+},
+{
+  "mode": "NULLABLE",
+  "name": "Dist1",
+  "type": "FLOAT"
+},
+{
+  "mode": "NULLABLE",
+  "name": "Dist2",
+  "type": "FLOAT"
+},
+{
+  "mode": "NULLABLE",
+  "name": "Dist3",
+  "type": "FLOAT"
+},
+{
+  "mode": "NULLABLE",
+  "name": "Dist4",
+  "type": "FLOAT"
 },
 {
   "mode": "NULLABLE",

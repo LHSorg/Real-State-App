@@ -4,7 +4,7 @@ class Config:
     TESTING = False
     LOG_LEVEL = 'INFO'
     #   
-    GCP_PROJECT = 'realstate-309420'
+    GCP_PROJECT = 'real-310017'
     BIGQUERY_TABLE = 'table_real.realstates'
 
 class DevConfig(Config):

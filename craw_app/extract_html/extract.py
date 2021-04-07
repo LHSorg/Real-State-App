@@ -59,6 +59,11 @@ class extract_text():
             price = soup.find('div', class_ = 'row prices-row').find('p').text
             clean_text = price.replace(' ', '').replace('\n', '').replace('R$', '').replace('.', '').replace(',', '.').replace('\xa0', '')
             data['Price'] = float(clean_text)
+            
+            # Initial simple cleaning
+            street = soup.find_all('div', class_ = 'card')[1].find('h1').find('small').text
+            clean_text = street.replace('  ', '').replace('\n', '').replace('\xa0', '')
+            data['Street'] = (clean_text)
             data_complete.append(data)
         return data_complete  
     
@@ -70,10 +75,11 @@ class extract_text():
             html_extract = self.do_requests(site_url)
             data_html = self.get_text(html_extract, data_html)
 
-        # df = pd.DataFrame(data_html)         
-        # with open("houses.json", "w") as write_file:
-        #     json.dump(df.to_dict(orient='index'), write_file, indent=8)
-        # write_file.close()
+        df = pd.DataFrame(data_html)         
+        with open("houses_extract.json", "w") as write_file:
+            json.dump(df.to_dict(orient='index'), write_file, indent=8)
+        write_file.close()
+
         return data_html
 
 

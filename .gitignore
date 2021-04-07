@@ -1,2 +1,9 @@
 /my_env
 /.vscode/
+/houses.json
+/housess.json
+/house_transformed.json
+/house_transformed2.json
+/houses_extract.json
+/craw_app/app_flask/static
+/craw_app/app_flask/templates
